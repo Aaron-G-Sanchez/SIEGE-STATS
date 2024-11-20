@@ -4,6 +4,7 @@
     "dotenv": "^16.4.5"
   },
   "scripts": {
-    "dev": "bun run server.ts"
+    "dev": "bun run server.ts",
+    "deploy": "bun run config/deploy-commands.ts"
   }
 }
